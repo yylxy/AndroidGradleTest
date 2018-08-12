@@ -189,10 +189,10 @@ apply plugin: 'com.android.library'
 ```gradle
 
 //网络地址（行程地址）
-apply from: 'http://gitlab.ops.xkeshi.so/android_cashier/mvn-repo/raw/oldDev/config.gradle'
+apply from: 'http://gitlab.ops.*****.so/android_cashier/mvn-repo/raw/oldDev/config.gradle'
 
 //本机地址（绝对路径）
-apply from: file('D:\\MyAndroidStudioProjects\\xkeshi\\checkstand\\mvn\\mvn-repo\\mvn-repo\\config.gradle')
+apply from: file('D:\\MyAndroidStudioProjects\\****\\*****\\mvn\\mvn-repo\\mvn-repo\\config.gradle')
 
 //在同一个包下（相对路径）
 apply from: file('gradle-mvn-push.gradle')
