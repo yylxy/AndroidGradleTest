@@ -1,5 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
+//引用配置文件
+apply from: file('config.gradle')
 buildscript {
     ext.kotlin_version = '1.2.50'
     repositories {
@@ -26,6 +27,10 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-ext{
-    MY_VERSION_NAME="8888888"
+
+ext {
+    MY_VERSION_NAME = "8888888"
+    applicationId = "com.example.lyxs9.androidgradletest"
+    versionCode = 1
+    versionName = "1.0"
 }

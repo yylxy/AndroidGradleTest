@@ -1,0 +1,16 @@
+ext {
+    supportLibraryVersion = "27.1.1"
+    constraintLibraryVersion = "1.1.2"
+
+    defaultConfig = [
+            compileSdkVersion: 27,
+            minSdkVersion    : 19,
+            targetSdkVersion : 27
+    ]
+
+    dependencies = [
+            appcompat : "com.android.support:appcompat-v7:${supportLibraryVersion}",
+            design    : "com.android.support:design:${supportLibraryVersion}",
+            constraint: "com.android.support.constraint:constraint-layout:${constraintLibraryVersion}"
+    ]
+}
